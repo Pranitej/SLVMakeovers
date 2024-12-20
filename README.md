@@ -6,3 +6,7 @@ SLV Makeovers (Smart Look Vision Makeovers) is a professional makeup and beauty 
 - **Frontend**: ReactJS, HTML, CSS
 - **Styling Framework**: MDB (Material Design for Bootstrap)
 - **Hosting**: Vercel
+
+## Usage
+- Navigate to the deployed application on Vercel: [SLV Makeovers](https://slv-makeovers.vercel.app/).
+- Users can easily browse services, contact and navigate.
