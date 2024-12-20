@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLV Makeovers</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="./src/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="./src/css/mdb.min.css" rel="stylesheet" />
+  </head>
+  <body class="black-skin bg-light">
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+    <script
+      type="text/javascript "
+      src="./src/js/jquery-3.4.1.min.js "
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript " src="./src/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript " src="./src/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript " src="./src/js/mdb.min.js"></script>
+
+    <script>
+      // MDB Lightbox Init
+      $(function () {
+        $("#mdb-lightbox-ui").load("./src/mdb-addons/mdb-lightbox-ui.html");
+      });
+
+      //Animation Init
+      new WOW().init();
+
+      $(".navbar-collapse a").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>
